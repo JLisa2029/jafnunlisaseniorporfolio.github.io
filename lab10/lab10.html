@@ -1,0 +1,64 @@
+` <DOCTYPE html> 
+  <html> 
+    <head> 
+<title> Lab 10 Interal CSS</Title> 
+<style>
+  /*the  * works as universal selector for CSS*/
+  *{
+    box-sizing:border-box;
+  }
+  /*A CSS selector selects the HTML element(s) you want
+  to style.Simple selectors (select elements based on
+  name,id,class)
+  */
+  /*any html tag can be a selector.For example*/
+  body{
+    background-color:pink;
+  }
+ /*The class selector select HTML element with a specific class attribute.
+ To select elements with a specific class,write a period(.) character, followed the class name.*/
+  .header{
+    background-image: url(https://dzinousa.com/wp-content/uploads/2020/10/Get-the-Most-Fancied-Web-Development-Services-min-scaled-1-600x420.jpg); 
+  }
+  /*The id selector uses the id attribute of an HTML element to select a specific element. The id of an element is unique within a pages, so the id select an element with a specifi id, write a hash (#) character, followed by the id of the element.Example the CSS rule below will be applied to the HTML element with id="paral": */
+  #demoBox {}
+  /*The grouping selector selects all the HTML elements with the same style definitions. Look at the following CSS code (the h1, h2, and p elements have the same definitions);It will be better to group the selectors, to minimize the code. To group selectors, separate each selector with a comma.*/
+  p, h1, p {color:deepskyblue;}
+  /* A combinator is something that explains the relationship between the selectors.A CSS selector can contain more than one simple selector. Between the simple selectors, we can include a combinator. There are four different combinators in 
+  CSS:
+  descendant selector (space)
+  child selector (>)
+  adjacent sibling selector (+)
+  general sibling selector (~)*/
+   .header h3{color:deepskyblue;}
+   /*changes color on hover or mouse over*/
+   /*A pseudo-class is used to define a special state of an element.For example, it can be used to; style an element when a user mouses over it style visited and unvisited links differently style an element when it gets focus */
+   .topnav a:hover{
+     background-color: #f1f1f1; 
+     color: blue; 
+   }
+   /* CSS [attribute] selector
+   the [attribute] selector is used to select elements with a specified attrbute. The following example slects all <a> elements with a target attrbute.*/
+   a[target] { background-color: pink;
+    
+   }
+   </style>
+<Link rel="Stylesheet" href="main.css"
+</head> 
+</body> 
+<div class="topnav">
+  </div> 
+<div class="header"> 
+<h1> TAEHS </h1> 
+<h2> WEB DESIGN</h2>
+<h3> Lab 10 Internal CSS </h3> 
+<h4> 2/07/22 </h4> 
+<h5> Jafnun Lisa </h5> 
+</div> 
+<div id="demoBox">
+  <h1> Jafnun </h1>
+  <h1 id= "1name"> Lisa</h1> 
+  <h1> 2/9/2022 </h1> 
+  </div> 
+</body> 
+</html>

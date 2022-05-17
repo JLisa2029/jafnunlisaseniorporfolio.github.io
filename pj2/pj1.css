@@ -1,0 +1,17 @@
+img {
+  width: 250px;
+  height: 250px;
+}
+body {
+  background-color:LightYellow;
+}
+h1 {
+  color:LightCoral;
+}
+p {
+  color:PaleVioletRed;
+}
+img {
+  border: 2px solid LightCoral;
+  padding: 30px;
+}

@@ -1,0 +1,30 @@
+
+*{
+  box-sizing: border-box; 
+}
+body{
+  background-color:pink;
+  color:  deepskyblue;
+}
+.topnav{
+  background-color: rgb(189, 0, 126);
+  overflow: hidden;
+}
+.topnav a{
+  color: azure;
+  float: left;
+  display: block; 
+  text-align: center;
+  padding: 14px 16px; 
+}
+.topnav a:hover{
+  background-color:  blue; 
+  color: gold;
+}
+.column{
+  float: left; 
+  width: 33.33%; 
+  padding: 15px  
+}
+div {border-style: double;}
+

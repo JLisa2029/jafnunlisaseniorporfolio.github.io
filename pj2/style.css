@@ -1,0 +1,17 @@
+body {
+  background-color:SeaShell;
+}
+img {
+  border: 2px solid LightCoral;
+  padding: 30px;
+}
+img {  
+  border-color: LightCoral;  
+  border-width: 5px;  
+  border-style: inset;  
+  } 
+body {
+margin: 0;
+padding: 0;
+border: 5px solid #CD5C5C;
+}
