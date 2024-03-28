@@ -3,11 +3,11 @@
   box-sizing: border-box; 
 }
 body{
-  background-color:pink;
-  color:  deepskyblue;
+  background-color:Pink;
+  color: rgb(224, 255, 255);
 }
 .topnav{
-  background-color: rgb(189, 0, 126);
+  background-color: rgb(255, 182, 193);
   overflow: hidden;
 }
 .topnav a{
