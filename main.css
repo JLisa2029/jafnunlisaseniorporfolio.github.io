@@ -18,7 +18,7 @@ body{
   padding: 14px 16px; 
 }
 .topnav a:hover{
-  background-color:  blue; 
+  background-color:rgb(240, 128, 128); 
   color: gold;
 }
 .column{
