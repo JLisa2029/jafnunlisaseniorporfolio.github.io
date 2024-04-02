@@ -4,7 +4,7 @@
 }
 body{
   background-color:Pink;
-  color: rgb(224, 255, 255);
+  color: rgb(255, 182, 193);
 }
 .topnav{
   background-color: rgb(255, 240, 245);
@@ -19,7 +19,7 @@ body{
 }
 .topnav a:hover{
   background-color:rgb(240, 128, 128); 
-  color: gold;
+  color: rgb(219, 112, 147);
 }
 .column{
   float: left; 
