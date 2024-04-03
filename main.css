@@ -7,11 +7,11 @@ body{
   color:rgb(135, 206, 235);
 }
 .topnav{
-  background-color: rgb(255, 240, 245); 
+  background-color: rgb(245, 255, 250); 
   overflow: hidden;
 }
 .topnav a{
-  color: azure;
+  color: MintCream;
   float: left;
   display: block; 
   text-align: center;
